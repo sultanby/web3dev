@@ -1,3 +1,39 @@
 html {
     background-color: black;
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid antiquewhite;
+}
+
+.header-content {
+    display: flex;
+}
+
+.logo {
+    font-family: "Rock 3D", sans-serif;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.header-content {
+    padding: 1rem 1rem;
+    justify-content: space-around;
+}
+
+.header-content nav ul{
+    display: flex;
+}
+
+.header-content ul li img {
+    width: 2rem;
+    color: antiquewhite;
+    padding-left: 2rem;
 }
