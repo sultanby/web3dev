@@ -16,6 +16,7 @@ header {
 
 .header-content {
     display: flex;
+    align-items: center;
 }
 
 .header-content a {
@@ -41,6 +42,12 @@ header {
     width: 2.5rem;
     color: antiquewhite;
     padding-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .header-content ul li img {
+        width: 2rem;
+    }
 }
 
 /* title */
@@ -69,18 +76,27 @@ header {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+    #title-text  {
+        left: 0;
+    }
+
+    #title-text h1 {
+        font-size: 3rem;
+    }
+}
+
 
 /* projects section */
 
 #projects h2 {
     font-size: 3rem;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
 .nft-project {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 500px;
     padding: 20px;
@@ -103,12 +119,18 @@ header {
 
 .nft-project h4 {
     font-family: "Rock 3D", sans-serif;
-    font-size: 2rem;
-    padding: 10px 0;
+    font-size: 2.5rem;
+    padding: 20px 0;
 }
 
 .nft-project p {
     font-size: 1.5rem;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .nft-project {
+        flex-direction: column;
+  }
 }
 
