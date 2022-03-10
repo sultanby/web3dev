@@ -98,23 +98,21 @@ header {
 .nft-project {
     display: flex;
     align-items: center;
-    height: 500px;
     padding: 20px;
     margin: 0 auto;
     width: 60%;
 }
 
 .nft-project img {
-    max-width: 100%;
+    max-width: 500px;
     max-height: 100%;
     padding: 1%;
-    margin-right: 30px;
 }
 
 .nft-project div {
     max-width: 100%;
     padding: 1%;
-
+    text-align: center;
 }
 
 .nft-project h4 {
@@ -128,9 +126,21 @@ header {
     padding: 20px 0;
 }
 
+#metaverse {
+    margin-right: 2%;
+}
+
+#marketplace {
+    margin-left: 2%;
+}
+
 @media screen and (max-width: 600px) {
     .nft-project {
         flex-direction: column;
-  }
+    }
+
+    .nft-project img {
+        width: 100%;
+    }
 }
 
