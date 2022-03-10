@@ -144,3 +144,31 @@ header {
     }
 }
 
+
+.team {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team-member {
+    width: 325px;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 25px;
+}
+
+.team .team-member img {
+    width: 100%;
+}
+
+.team .team-member span {
+    font-size: 1rem;
+}
+
+.team .team-member p {
+    margin: 15px 0;
+}
+
